@@ -20,6 +20,8 @@
  - 2025-03-23_20_40_21 (Task 0 Acc:  0.3909, Task 1 Acc:  0.8909)
 ##### SGD
  - 2025-03-24_21_40_02 (Task 0 Acc:  0.7716, Task 1 Acc:  0.5255)
+#### 10 Epoch + 2 Epoch
+ - 2025-03-25_07_49_12 (Task 0 Acc:  0.5845, Task 1 Acc:  0.8322)
 
 ### Lambda = 10
 #### 2 Epoch
@@ -35,6 +37,8 @@
  - 2025-03-24_21_09_06 (Task 0 Acc:  0.8026, Task 1 Acc:  0.3034)
 ##### SGD(model.parameters(), lr=0.01, momentum=0.9)
  - 2025-03-24_20_49_06 (Task 0 Acc:  0.6899, Task 1 Acc:  0.7447)
+#### 10 Epoch + 2 Epoch
+ - 2025-03-25_07_55_37 (Task 0 Acc:  0.7495, Task 1 Acc:  0.6880)
 
 ### Lambda = 25
 #### 2 Epoch
@@ -53,6 +57,15 @@
 ##### SGD(model.parameters(), lr=0.01, momentum=0.9)
  - 2025-03-24_20_03_31 (Task 0 Acc:  0.7768, Task 1 Acc:  0.6751)
 
+# EWC (MNIST 取樣)
+## Single Layer
+### Lambda = 1
+#### 10 Epoch
+##### Adam
+###### 0.2 %
+ - 2025-03-25_10_19_05 (Task 0 Acc:  0.2673, Task 1 Acc:  0.9210)
+ - 2025-03-25_10_34_32 (Task 0 Acc:  0.2938, Task 1 Acc:  0.9185)
+
 # EWC (Fashion MNIST)
 ## Single Layer
 ### Lambda = 25
@@ -60,6 +73,14 @@
 ##### Adam
  - 2025-03-24_20_22_19 (Task 0 Acc:  0.5438, Task 1 Acc:  0.7353)
 
+# EWC (CIFAR 10)
+## Single Layer
+### Lambda = 10
+#### 10 Epoch
+##### Adam
+ - 2025-03-25_08_11_39 (Task 0 Acc:  0.3594, Task 1 Acc:  0.2498)
+#### 20 Epoch
+ - 2025-03-25_08_29_52 (Task 0 Acc:  0.3675, Task 1 Acc:  0.2528)
 
 # To Do List 
 - [ ] 改成取樣
