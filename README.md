@@ -7,7 +7,6 @@
 #### 10 Epoch
  - 2025-03-23_14_16_42 (Task 0 Acc:  0.2307, Task 1 Acc:  0.9207)
  - 2025-03-23_14_31_20 (Task 0 Acc:  0.2255, Task 1 Acc:  0.9220)
-
 ### Lambda = 1
 #### 2 Epoch
  - 2025-03-23_11_25_55 (Task 0 Acc:  0.6147, Task 1 Acc:  0.8193)
@@ -36,10 +35,9 @@
 ##### SGD
  - 2025-03-24_21_09_06 (Task 0 Acc:  0.8026, Task 1 Acc:  0.3034)
 ##### SGD(model.parameters(), lr=0.01, momentum=0.9)
- - 2025-03-24_20_49_06 (Task 0 Acc:  0.6899, Task 1 Acc:  0.7447)
+ - 2025-03-24_20_49_06 (Task 0 Acc:  0.6899, Task 1 Acc:  0.7447, ACC: 0.7173)
 #### 10 Epoch + 2 Epoch
  - 2025-03-25_07_55_37 (Task 0 Acc:  0.7495, Task 1 Acc:  0.6880)
-
 ### Lambda = 25
 #### 2 Epoch
  - 2025-03-23_10_42_35 (Task 0 Acc:  0.8219, Task 1 Acc:  0.6061)
@@ -56,15 +54,62 @@
  - 2025-03-24_19_44_31 (Task 0 Acc:  0.8124, Task 1 Acc:  0.2376)
 ##### SGD(model.parameters(), lr=0.01, momentum=0.9)
  - 2025-03-24_20_03_31 (Task 0 Acc:  0.7768, Task 1 Acc:  0.6751)
+## Two Layer
+### Lambda = 10
+#### 10 Epoch
+##### Adam
+ - 2025-03-25_13_36_30 (Task 0 Acc:  0.6929, Task 1 Acc:  0.7075)
+### Lambda = 25
+#### 10 Epoch
+##### Adam
+ - 2025-03-25_12_53_07 (Task 0 Acc:  0.7390, Task 1 Acc:  0.6546)
+## CNN + GAP
+### Lambda = 1
+#### 10 Epoch
+##### Adam
+ - 2025-03-25_19_11_49 (Task 0 Acc:  0.3517, Task 1 Acc:  0.7607)
+### Lambda = 10
+#### 10 Epoch
+##### Adam
+ - 2025-03-25_18_36_15 (Task 0 Acc:  0.6576, Task 1 Acc:  0.4631)
+## two CNN
+### Lambda = 10
+#### 10 Epoch
+##### Adam
+ - 2025-03-25_21_34_11 (Task 0 Acc:  0.3997, Task 1 Acc:  0.5879)
+### Lambda = 15
+#### 10 Epoch
+##### Adam
+ - 2025-03-25_22_02_04 (Task 0 Acc:  0.3706, Task 1 Acc:  0.6572)
+### Lambda = 25
+#### 10 Epoch
+##### Adam
+ - 2025-03-25_21_51_15 (Task 0 Acc:  0.5591, Task 1 Acc:  0.4587)
 
 # EWC (MNIST 取樣)
 ## Single Layer
 ### Lambda = 1
 #### 10 Epoch
 ##### Adam
-###### 0.2 %
+###### 20 %
  - 2025-03-25_10_19_05 (Task 0 Acc:  0.2673, Task 1 Acc:  0.9210)
  - 2025-03-25_10_34_32 (Task 0 Acc:  0.2938, Task 1 Acc:  0.9185)
+###### 80 %
+ - 2025-03-25_10_55_38 (Task 0 Acc:  0.3821, Task 1 Acc:  0.9007)
+### Lambda = 10
+#### 10 Epoch
+##### Adam
+###### 20 %
+ - 2025-03-25_11_27_13 (Task 0 Acc:  0.3840, Task 1 Acc:  0.8977, ACC: 0.6409)
+###### 80%
+ - 2025-03-25_11_12_58 (Task 0 Acc:  0.5776, Task 1 Acc:  0.8104, ACC: 0.6939)
+### Lambda = 25
+#### 10 Epoch
+##### Adam
+###### 20 %
+ - 2025-03-25_12_03_36 (Task 0 Acc:  0.4868, Task 1 Acc:  0.8634)
+###### 80 %
+ - 2025-03-25_12_36_27 (Task 0 Acc:  0.7515, Task 1 Acc:  0.6684)
 
 # EWC (Fashion MNIST)
 ## Single Layer
